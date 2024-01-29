@@ -1,0 +1,1335 @@
+[18:45:16]: INFO: Period size: 1
+[18:45:16]: INFO: Validating resource files...
+[18:45:16]: INFO: Subject's 001 resource files found
+[18:45:16]: INFO: Subject's 002 resource files found
+[18:45:16]: INFO: Subject's 003 resource files found
+[18:45:16]: INFO: Subject's 004 resource files found
+[18:45:16]: INFO: Subject's 005 resource files found
+[18:45:16]: INFO: Subject's 006 resource files found
+[18:45:16]: INFO: Subject's 007 resource files found
+[18:45:16]: INFO: Subject's 008 resource files found
+[18:45:16]: INFO: Subject's 009 resource files found
+[18:45:16]: INFO: Subject's 010 resource files found
+[18:45:16]: INFO: Subject's 011 resource files found
+[18:45:16]: INFO: Subject's 012 resource files found
+[18:45:16]: INFO: Subject's 013 resource files found
+[18:45:16]: INFO: Subject's 014 resource files found
+[18:45:16]: INFO: Subject's 015 resource files found
+[18:45:16]: INFO: Subject's 016 resource files found
+[18:45:16]: INFO: All resource files have been found
+[18:45:16]: INFO: Chosen OpenCL device: Apple M1 Pro
+[18:45:16]: INFO: Beginning data preprocessing...
+[18:45:16]: INFO: Timestamp difference calculated: -10
+[18:45:16]: INFO: Beginning parsing file resources/001/ACC_001.csv
+[18:45:16]: INFO: Parsed 1000000 lines in current ACC file
+[18:45:16]: INFO: Parsed 2000000 lines in current ACC file
+[18:45:16]: INFO: Parsed 3000000 lines in current ACC file
+[18:45:17]: INFO: Parsed 4000000 lines in current ACC file
+[18:45:17]: INFO: Parsed 5000000 lines in current ACC file
+[18:45:17]: INFO: Parsed 6000000 lines in current ACC file
+[18:45:17]: INFO: Parsed 7000000 lines in current ACC file
+[18:45:18]: INFO: Parsed 8000000 lines in current ACC file
+[18:45:18]: INFO: Parsed 9000000 lines in current ACC file
+[18:45:18]: INFO: Parsed 10000000 lines in current ACC file
+[18:45:18]: INFO: Parsed 11000000 lines in current ACC file
+[18:45:18]: INFO: Parsed 12000000 lines in current ACC file
+[18:45:19]: INFO: Parsed 13000000 lines in current ACC file
+[18:45:19]: INFO: Parsed 14000000 lines in current ACC file
+[18:45:19]: INFO: Parsed 15000000 lines in current ACC file
+[18:45:19]: INFO: Parsed 16000000 lines in current ACC file
+[18:45:20]: INFO: Parsed 17000000 lines in current ACC file
+[18:45:20]: INFO: Parsed 18000000 lines in current ACC file
+[18:45:20]: INFO: Parsed 19000000 lines in current ACC file
+[18:45:20]: INFO: Parsed 20000000 lines in current ACC file
+[18:45:20]: INFO: Parsed 20296428 lines from resources/001/ACC_001.csv
+[18:45:20]: INFO: Beginning normalizing ACC values... 
+[18:45:20]: INFO: Beginning normalizing ACC values... 
+[18:45:20]: INFO: Beginning normalizing ACC values... 
+[18:45:20]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:45:20]: INFO: Beginning parsing file resources/001/HR_001.csv
+[18:45:20]: INFO: Parsed 100000 in the current HR file
+[18:45:21]: INFO: Parsed 200000 in the current HR file
+[18:45:21]: INFO: Parsed 300000 in the current HR file
+[18:45:21]: INFO: Parsed 400000 in the current HR file
+[18:45:21]: INFO: Parsed 500000 in the current HR file
+[18:45:21]: INFO: Parsed 600000 in the current HR file
+[18:45:21]: INFO: Initial correlation (axis 0) is 0.229364
+[18:45:21]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:45:21]: INFO: Found correlation: 0.229357 in 1. iteration
+[18:45:21]: INFO: Found correlation: 0.229357 in 1. iteration
+[18:45:23]: INFO: Finished [10/100] iterations
+[18:45:26]: INFO: Finished [20/100] iterations
+[18:45:28]: INFO: Finished [30/100] iterations
+[18:45:31]: INFO: Finished [40/100] iterations
+[18:45:33]: INFO: Finished [50/100] iterations
+[18:45:36]: INFO: Finished [60/100] iterations
+[18:45:38]: INFO: Finished [70/100] iterations
+[18:45:41]: INFO: Finished [80/100] iterations
+[18:45:43]: INFO: Finished [90/100] iterations
+[18:45:46]: INFO: Best found correlation: 0.229357
+[18:45:46]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.348961) + (x + 0.159153) + (x / 0.311117) + (0.015632 * 0.102400) + (0.447015 / 0.408925) + (x * 0.158554) + (0.439459 * 0.172355) + (x + 0.436836) + (0.214786 + 0.399348) + (0.352865 / 0.370122)
+[18:45:46]: INFO: Exporting results into out/patient_1_axis_X_Apple M1 Pro.svg
+[18:45:46]: INFO: Results exported
+[18:45:46]: INFO: Initial correlation (axis 1) is -0.299763
+[18:45:46]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:45:46]: INFO: Found correlation: -0.299762 in 1. iteration
+[18:45:46]: INFO: Found correlation: -0.299762 in 1. iteration
+[18:45:48]: INFO: Finished [10/100] iterations
+[18:45:51]: INFO: Finished [20/100] iterations
+[18:45:54]: INFO: Finished [30/100] iterations
+[18:45:57]: INFO: Finished [40/100] iterations
+[18:46:0]: INFO: Finished [50/100] iterations
+[18:46:3]: INFO: Finished [60/100] iterations
+[18:46:5]: INFO: Finished [70/100] iterations
+[18:46:8]: INFO: Finished [80/100] iterations
+[18:46:10]: INFO: Finished [90/100] iterations
+[18:46:13]: INFO: Best found correlation: -0.299762
+[18:46:13]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.344402) + (0.015428 / 0.099240) + (x + 0.114098) + (0.256768 - 0.017782) + (x + 0.462200) + (x / 0.301275) + (x / 0.054614) + (x * 0.130759) + (0.369256 - 0.127832) + (0.211513 - 0.015129)
+[18:46:13]: INFO: Exporting results into out/patient_1_axis_Y_Apple M1 Pro.svg
+[18:46:13]: INFO: Results exported
+[18:46:13]: INFO: Initial correlation (axis 2) is -0.089666
+[18:46:13]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:46:13]: INFO: Found correlation: -0.089665 in 1. iteration
+[18:46:13]: INFO: Found correlation: -0.089665 in 1. iteration
+[18:46:16]: INFO: Finished [10/100] iterations
+[18:46:18]: INFO: Finished [20/100] iterations
+[18:46:21]: INFO: Finished [30/100] iterations
+[18:46:24]: INFO: Finished [40/100] iterations
+[18:46:26]: INFO: Finished [50/100] iterations
+[18:46:29]: INFO: Finished [60/100] iterations
+[18:46:31]: INFO: Finished [70/100] iterations
+[18:46:34]: INFO: Finished [80/100] iterations
+[18:46:37]: INFO: Finished [90/100] iterations
+[18:46:39]: INFO: Best found correlation: -0.089665
+[18:46:39]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.367098) + (0.228274 * 0.206580) + (0.380868 / 0.380064) + (x - 0.389755) + (x / 0.091649) + (x - 0.208949) + (x / 0.268745) + (x - 0.244906) + (0.045450 / 0.372040) + (x / 0.261240)
+[18:46:39]: INFO: Exporting results into out/patient_1_axis_Z_Apple M1 Pro.svg
+[18:46:39]: INFO: Results exported
+[18:46:39]: INFO: Timestamp difference calculated: -10
+[18:46:39]: INFO: Beginning parsing file resources/002/ACC_002.csv
+[18:46:39]: INFO: Parsed 1000000 lines in current ACC file
+[18:46:39]: INFO: Parsed 2000000 lines in current ACC file
+[18:46:40]: INFO: Parsed 3000000 lines in current ACC file
+[18:46:40]: INFO: Parsed 4000000 lines in current ACC file
+[18:46:40]: INFO: Parsed 5000000 lines in current ACC file
+[18:46:40]: INFO: Parsed 6000000 lines in current ACC file
+[18:46:41]: INFO: Parsed 7000000 lines in current ACC file
+[18:46:41]: INFO: Parsed 8000000 lines in current ACC file
+[18:46:41]: INFO: Parsed 9000000 lines in current ACC file
+[18:46:41]: INFO: Parsed 10000000 lines in current ACC file
+[18:46:42]: INFO: Parsed 11000000 lines in current ACC file
+[18:46:42]: INFO: Parsed 12000000 lines in current ACC file
+[18:46:42]: INFO: Parsed 13000000 lines in current ACC file
+[18:46:42]: INFO: Parsed 14000000 lines in current ACC file
+[18:46:43]: INFO: Parsed 15000000 lines in current ACC file
+[18:46:43]: INFO: Parsed 16000000 lines in current ACC file
+[18:46:43]: INFO: Parsed 17000000 lines in current ACC file
+[18:46:43]: INFO: Parsed 18000000 lines in current ACC file
+[18:46:43]: INFO: Parsed 19000000 lines in current ACC file
+[18:46:44]: INFO: Parsed 20000000 lines in current ACC file
+[18:46:44]: INFO: Parsed 20152230 lines from resources/002/ACC_002.csv
+[18:46:44]: INFO: Beginning normalizing ACC values... 
+[18:46:44]: INFO: Beginning normalizing ACC values... 
+[18:46:44]: INFO: Beginning normalizing ACC values... 
+[18:46:44]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:46:44]: INFO: Beginning parsing file resources/002/HR_002.csv
+[18:46:44]: INFO: Parsed 100000 in the current HR file
+[18:46:44]: INFO: Parsed 200000 in the current HR file
+[18:46:44]: INFO: Parsed 300000 in the current HR file
+[18:46:44]: INFO: Parsed 400000 in the current HR file
+[18:46:44]: INFO: Parsed 500000 in the current HR file
+[18:46:44]: INFO: Parsed 600000 in the current HR file
+[18:46:44]: INFO: Initial correlation (axis 0) is -0.010386
+[18:46:44]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:46:44]: INFO: Found correlation: -0.010386 in 1. iteration
+[18:46:44]: INFO: Found correlation: -0.010386 in 1. iteration
+[18:46:44]: INFO: Found correlation: -0.010386 in 1. iteration
+[18:46:44]: INFO: Found correlation: -0.010386 in 1. iteration
+[18:46:44]: INFO: Found correlation: -0.010386 in 1. iteration
+[18:46:47]: INFO: Finished [10/100] iterations
+[18:46:50]: INFO: Finished [20/100] iterations
+[18:46:52]: INFO: Finished [30/100] iterations
+[18:46:55]: INFO: Finished [40/100] iterations
+[18:46:58]: INFO: Finished [50/100] iterations
+[18:47:1]: INFO: Finished [60/100] iterations
+[18:47:4]: INFO: Finished [70/100] iterations
+[18:47:6]: INFO: Finished [80/100] iterations
+[18:47:9]: INFO: Finished [90/100] iterations
+[18:47:11]: INFO: Best found correlation: -0.010386
+[18:47:11]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.154807) + (x + 0.118007) + (0.136190 - 0.438385) + (x / 0.073163) + (x + 0.318590) + (x + 0.428051) + (0.110448 + 0.102195) + (0.444455 / 0.413286) + (0.214327 - 0.197182) + (x - 0.484277)
+[18:47:11]: INFO: Exporting results into out/patient_2_axis_X_Apple M1 Pro.svg
+[18:47:11]: INFO: Results exported
+[18:47:11]: INFO: Initial correlation (axis 1) is 0.010521
+[18:47:11]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:47:11]: INFO: Found correlation: 0.010519 in 1. iteration
+[18:47:11]: INFO: Found correlation: 0.010519 in 1. iteration
+[18:47:14]: INFO: Finished [10/100] iterations
+[18:47:17]: INFO: Finished [20/100] iterations
+[18:47:20]: INFO: Finished [30/100] iterations
+[18:47:23]: INFO: Finished [40/100] iterations
+[18:47:26]: INFO: Finished [50/100] iterations
+[18:47:29]: INFO: Finished [60/100] iterations
+[18:47:32]: INFO: Finished [70/100] iterations
+[18:47:35]: INFO: Finished [80/100] iterations
+[18:47:37]: INFO: Finished [90/100] iterations
+[18:47:39]: INFO: Best found correlation: 0.010519
+[18:47:39]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.463621) + (0.196108 / 0.006650) + (x + 0.388010) + (x / 0.192806) + (0.266461 + 0.021127) + (x / 0.344820) + (x + 0.266411) + (0.176355 - 0.281969) + (x * 0.390338) + (x * 0.331029)
+[18:47:39]: INFO: Exporting results into out/patient_2_axis_Y_Apple M1 Pro.svg
+[18:47:39]: INFO: Results exported
+[18:47:39]: INFO: Initial correlation (axis 2) is -0.211545
+[18:47:39]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:47:39]: INFO: Found correlation: -0.211547 in 1. iteration
+[18:47:42]: INFO: Finished [10/100] iterations
+[18:47:45]: INFO: Finished [20/100] iterations
+[18:47:48]: INFO: Finished [30/100] iterations
+[18:47:50]: INFO: Finished [40/100] iterations
+[18:47:53]: INFO: Finished [50/100] iterations
+[18:47:55]: INFO: Finished [60/100] iterations
+[18:47:58]: INFO: Finished [70/100] iterations
+[18:48:0]: INFO: Finished [80/100] iterations
+[18:48:3]: INFO: Finished [90/100] iterations
+[18:48:5]: INFO: Best found correlation: -0.211547
+[18:48:5]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.252765) + (x - 0.442014) + (0.075600 + 0.185852) + (0.198361 + 0.305760) + (x / 0.471100) + (0.163167 - 0.115907) + (0.473196 - 0.299099) + (0.375286 * 0.291613) + (0.314059 * 0.042870) + (x - 0.214980)
+[18:48:5]: INFO: Exporting results into out/patient_2_axis_Z_Apple M1 Pro.svg
+[18:48:5]: INFO: Results exported
+[18:48:5]: INFO: Timestamp difference calculated: -10
+[18:48:5]: INFO: Beginning parsing file resources/003/ACC_003.csv
+[18:48:5]: INFO: Parsed 1000000 lines in current ACC file
+[18:48:6]: INFO: Parsed 2000000 lines in current ACC file
+[18:48:6]: INFO: Parsed 3000000 lines in current ACC file
+[18:48:6]: INFO: Parsed 4000000 lines in current ACC file
+[18:48:6]: INFO: Parsed 5000000 lines in current ACC file
+[18:48:7]: INFO: Parsed 6000000 lines in current ACC file
+[18:48:7]: INFO: Parsed 7000000 lines in current ACC file
+[18:48:7]: INFO: Parsed 8000000 lines in current ACC file
+[18:48:7]: INFO: Parsed 9000000 lines in current ACC file
+[18:48:8]: INFO: Parsed 10000000 lines in current ACC file
+[18:48:8]: INFO: Parsed 11000000 lines in current ACC file
+[18:48:8]: INFO: Parsed 12000000 lines in current ACC file
+[18:48:8]: INFO: Parsed 13000000 lines in current ACC file
+[18:48:8]: INFO: Parsed 13355700 lines from resources/003/ACC_003.csv
+[18:48:8]: INFO: Beginning normalizing ACC values... 
+[18:48:8]: INFO: Beginning normalizing ACC values... 
+[18:48:8]: INFO: Beginning normalizing ACC values... 
+[18:48:8]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:48:8]: INFO: Beginning parsing file resources/003/HR_003.csv
+[18:48:8]: INFO: Parsed 100000 in the current HR file
+[18:48:8]: INFO: Parsed 200000 in the current HR file
+[18:48:8]: INFO: Parsed 300000 in the current HR file
+[18:48:8]: INFO: Parsed 400000 in the current HR file
+[18:48:8]: INFO: Initial correlation (axis 0) is -0.194728
+[18:48:8]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:48:8]: INFO: Found correlation: -0.194728 in 1. iteration
+[18:48:8]: INFO: Found correlation: -0.194728 in 1. iteration
+[18:48:11]: INFO: Finished [10/100] iterations
+[18:48:13]: INFO: Finished [20/100] iterations
+[18:48:15]: INFO: Finished [30/100] iterations
+[18:48:17]: INFO: Finished [40/100] iterations
+[18:48:19]: INFO: Finished [50/100] iterations
+[18:48:21]: INFO: Finished [60/100] iterations
+[18:48:23]: INFO: Finished [70/100] iterations
+[18:48:25]: INFO: Finished [80/100] iterations
+[18:48:27]: INFO: Finished [90/100] iterations
+[18:48:29]: INFO: Best found correlation: -0.194728
+[18:48:29]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.077657) + (x + 0.447959) + (0.284473 / 0.134626) + (0.217362 / 0.360456) + (0.461025 + 0.287615) + (0.135257 / 0.441759) + (x / 0.390814) + (x * 0.034660) + (x * 0.053675) + (0.447356 * 0.335113)
+[18:48:29]: INFO: Exporting results into out/patient_3_axis_X_Apple M1 Pro.svg
+[18:48:29]: INFO: Results exported
+[18:48:29]: INFO: Initial correlation (axis 1) is 0.058434
+[18:48:29]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:48:29]: INFO: Found correlation: 0.058435 in 1. iteration
+[18:48:29]: INFO: Found correlation: 0.058435 in 1. iteration
+[18:48:31]: INFO: Finished [10/100] iterations
+[18:48:33]: INFO: Finished [20/100] iterations
+[18:48:35]: INFO: Finished [30/100] iterations
+[18:48:37]: INFO: Finished [40/100] iterations
+[18:48:39]: INFO: Finished [50/100] iterations
+[18:48:41]: INFO: Finished [60/100] iterations
+[18:48:43]: INFO: Finished [70/100] iterations
+[18:48:45]: INFO: Finished [80/100] iterations
+[18:48:48]: INFO: Finished [90/100] iterations
+[18:48:50]: INFO: Best found correlation: 0.058435
+[18:48:50]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.222910) + (0.388774 / 0.230267) + (0.382668 * 0.452691) + (0.177389 - 0.053822) + (x + 0.273752) + (0.057369 / 0.232200) + (x / 0.151193) + (x * 0.154754) + (0.029816 / 0.439654) + (x / 0.332479)
+[18:48:50]: INFO: Exporting results into out/patient_3_axis_Y_Apple M1 Pro.svg
+[18:48:50]: INFO: Results exported
+[18:48:50]: INFO: Initial correlation (axis 2) is -0.135090
+[18:48:50]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:48:50]: INFO: Found correlation: -0.135089 in 1. iteration
+[18:48:50]: INFO: Found correlation: -0.135089 in 1. iteration
+[18:48:52]: INFO: Finished [10/100] iterations
+[18:48:54]: INFO: Finished [20/100] iterations
+[18:48:56]: INFO: Finished [30/100] iterations
+[18:48:58]: INFO: Finished [40/100] iterations
+[18:49:1]: INFO: Finished [50/100] iterations
+[18:49:3]: INFO: Finished [60/100] iterations
+[18:49:5]: INFO: Finished [70/100] iterations
+[18:49:7]: INFO: Finished [80/100] iterations
+[18:49:9]: INFO: Finished [90/100] iterations
+[18:49:10]: INFO: Best found correlation: -0.135089
+[18:49:10]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.332141) + (x * 0.430999) + (x * 0.383513) + (x * 0.040979) + (x - 0.322156) + (x / 0.015836) + (x / 0.254585) + (x / 0.020296) + (0.032489 * 0.218965) + (0.099037 / 0.130858)
+[18:49:10]: INFO: Exporting results into out/patient_3_axis_Z_Apple M1 Pro.svg
+[18:49:11]: INFO: Results exported
+[18:49:11]: INFO: Timestamp difference calculated: -10
+[18:49:11]: INFO: Beginning parsing file resources/004/ACC_004.csv
+[18:49:11]: INFO: Parsed 1000000 lines in current ACC file
+[18:49:11]: INFO: Parsed 2000000 lines in current ACC file
+[18:49:11]: INFO: Parsed 3000000 lines in current ACC file
+[18:49:11]: INFO: Parsed 4000000 lines in current ACC file
+[18:49:12]: INFO: Parsed 5000000 lines in current ACC file
+[18:49:12]: INFO: Parsed 6000000 lines in current ACC file
+[18:49:12]: INFO: Parsed 7000000 lines in current ACC file
+[18:49:12]: INFO: Parsed 8000000 lines in current ACC file
+[18:49:13]: INFO: Parsed 9000000 lines in current ACC file
+[18:49:13]: INFO: Parsed 10000000 lines in current ACC file
+[18:49:13]: INFO: Parsed 11000000 lines in current ACC file
+[18:49:13]: INFO: Parsed 12000000 lines in current ACC file
+[18:49:14]: INFO: Parsed 13000000 lines in current ACC file
+[18:49:14]: INFO: Parsed 14000000 lines in current ACC file
+[18:49:14]: INFO: Parsed 14389038 lines from resources/004/ACC_004.csv
+[18:49:14]: INFO: Beginning normalizing ACC values... 
+[18:49:14]: INFO: Beginning normalizing ACC values... 
+[18:49:14]: INFO: Beginning normalizing ACC values... 
+[18:49:14]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:49:14]: INFO: Beginning parsing file resources/004/HR_004.csv
+[18:49:14]: INFO: Parsed 100000 in the current HR file
+[18:49:14]: INFO: Parsed 200000 in the current HR file
+[18:49:14]: INFO: Parsed 300000 in the current HR file
+[18:49:14]: INFO: Parsed 400000 in the current HR file
+[18:49:14]: INFO: Initial correlation (axis 0) is -0.223287
+[18:49:14]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:49:14]: INFO: Found correlation: -0.223287 in 1. iteration
+[18:49:14]: INFO: Found correlation: -0.223287 in 1. iteration
+[18:49:16]: INFO: Finished [10/100] iterations
+[18:49:18]: INFO: Finished [20/100] iterations
+[18:49:20]: INFO: Finished [30/100] iterations
+[18:49:22]: INFO: Finished [40/100] iterations
+[18:49:24]: INFO: Finished [50/100] iterations
+[18:49:26]: INFO: Finished [60/100] iterations
+[18:49:28]: INFO: Finished [70/100] iterations
+[18:49:30]: INFO: Finished [80/100] iterations
+[18:49:32]: INFO: Finished [90/100] iterations
+[18:49:34]: INFO: Best found correlation: -0.223287
+[18:49:34]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.420531) + (0.347119 * 0.239310) + (0.381695 / 0.130880) + (0.095708 / 0.072282) + (0.417618 / 0.159086) + (0.321916 * 0.005607) + (0.058359 * 0.212469) + (x * 0.400297) + (x + 0.216612) + (0.460233 - 0.113341)
+[18:49:34]: INFO: Exporting results into out/patient_4_axis_X_Apple M1 Pro.svg
+[18:49:34]: INFO: Results exported
+[18:49:34]: INFO: Initial correlation (axis 1) is -0.236168
+[18:49:34]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:49:34]: INFO: Found correlation: -0.236164 in 1. iteration
+[18:49:34]: INFO: Found correlation: -0.236164 in 1. iteration
+[18:49:36]: INFO: Finished [10/100] iterations
+[18:49:38]: INFO: Finished [20/100] iterations
+[18:49:40]: INFO: Finished [30/100] iterations
+[18:49:42]: INFO: Finished [40/100] iterations
+[18:49:43]: INFO: Finished [50/100] iterations
+[18:49:46]: INFO: Finished [60/100] iterations
+[18:49:47]: INFO: Finished [70/100] iterations
+[18:49:50]: INFO: Finished [80/100] iterations
+[18:49:52]: INFO: Finished [90/100] iterations
+[18:49:53]: INFO: Best found correlation: -0.236164
+[18:49:53]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.459467) + (x - 0.148284) + (0.339389 / 0.138104) + (0.024861 / 0.412142) + (x - 0.328076) + (0.493391 / 0.388235) + (x / 0.389433) + (0.004340 * 0.102260) + (0.081474 / 0.463271) + (x * 0.145774)
+[18:49:53]: INFO: Exporting results into out/patient_4_axis_Y_Apple M1 Pro.svg
+[18:49:53]: INFO: Results exported
+[18:49:53]: INFO: Initial correlation (axis 2) is 0.059885
+[18:49:53]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:49:53]: INFO: Found correlation: 0.059884 in 1. iteration
+[18:49:56]: INFO: Finished [10/100] iterations
+[18:49:57]: INFO: Finished [20/100] iterations
+[18:49:59]: INFO: Finished [30/100] iterations
+[18:50:1]: INFO: Finished [40/100] iterations
+[18:50:3]: INFO: Finished [50/100] iterations
+[18:50:5]: INFO: Finished [60/100] iterations
+[18:50:7]: INFO: Finished [70/100] iterations
+[18:50:9]: INFO: Finished [80/100] iterations
+[18:50:11]: INFO: Finished [90/100] iterations
+[18:50:13]: INFO: Best found correlation: 0.059884
+[18:50:13]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.254914) + (x * 0.388922) + (0.113178 + 0.100885) + (x / 0.178809) + (x / 0.302352) + (x * 0.482066) + (0.443261 - 0.171103) + (0.028199 / 0.370070) + (0.304207 * 0.184930) + (0.134632 + 0.456517)
+[18:50:13]: INFO: Exporting results into out/patient_4_axis_Z_Apple M1 Pro.svg
+[18:50:13]: INFO: Results exported
+[18:50:13]: INFO: Timestamp difference calculated: -10
+[18:50:13]: INFO: Beginning parsing file resources/005/ACC_005.csv
+[18:50:13]: INFO: Parsed 1000000 lines in current ACC file
+[18:50:13]: INFO: Parsed 2000000 lines in current ACC file
+[18:50:14]: INFO: Parsed 3000000 lines in current ACC file
+[18:50:14]: INFO: Parsed 4000000 lines in current ACC file
+[18:50:14]: INFO: Parsed 5000000 lines in current ACC file
+[18:50:14]: INFO: Parsed 6000000 lines in current ACC file
+[18:50:15]: INFO: Parsed 7000000 lines in current ACC file
+[18:50:15]: INFO: Parsed 8000000 lines in current ACC file
+[18:50:15]: INFO: Parsed 9000000 lines in current ACC file
+[18:50:15]: INFO: Parsed 10000000 lines in current ACC file
+[18:50:15]: INFO: Parsed 11000000 lines in current ACC file
+[18:50:16]: INFO: Parsed 12000000 lines in current ACC file
+[18:50:16]: INFO: Parsed 13000000 lines in current ACC file
+[18:50:16]: INFO: Parsed 14000000 lines in current ACC file
+[18:50:16]: INFO: Parsed 15000000 lines in current ACC file
+[18:50:17]: INFO: Parsed 16000000 lines in current ACC file
+[18:50:17]: INFO: Parsed 17000000 lines in current ACC file
+[18:50:17]: INFO: Parsed 18000000 lines in current ACC file
+[18:50:17]: INFO: Parsed 19000000 lines in current ACC file
+[18:50:18]: INFO: Parsed 20000000 lines in current ACC file
+[18:50:18]: INFO: Parsed 21000000 lines in current ACC file
+[18:50:18]: INFO: Parsed 22000000 lines in current ACC file
+[18:50:18]: INFO: Parsed 23000000 lines in current ACC file
+[18:50:18]: INFO: Parsed 23317050 lines from resources/005/ACC_005.csv
+[18:50:19]: INFO: Beginning normalizing ACC values... 
+[18:50:19]: INFO: Beginning normalizing ACC values... 
+[18:50:19]: INFO: Beginning normalizing ACC values... 
+[18:50:19]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:50:19]: INFO: Beginning parsing file resources/005/HR_005.csv
+[18:50:19]: INFO: Parsed 100000 in the current HR file
+[18:50:19]: INFO: Parsed 200000 in the current HR file
+[18:50:19]: INFO: Parsed 300000 in the current HR file
+[18:50:19]: INFO: Parsed 400000 in the current HR file
+[18:50:19]: INFO: Parsed 500000 in the current HR file
+[18:50:19]: INFO: Parsed 600000 in the current HR file
+[18:50:19]: INFO: Parsed 700000 in the current HR file
+[18:50:19]: INFO: Initial correlation (axis 0) is 0.366550
+[18:50:19]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:50:19]: INFO: Found correlation: 0.366547 in 1. iteration
+[18:50:22]: INFO: Finished [10/100] iterations
+[18:50:24]: INFO: Finished [20/100] iterations
+[18:50:27]: INFO: Finished [30/100] iterations
+[18:50:29]: INFO: Finished [40/100] iterations
+[18:50:32]: INFO: Finished [50/100] iterations
+[18:50:34]: INFO: Finished [60/100] iterations
+[18:50:37]: INFO: Finished [70/100] iterations
+[18:50:40]: INFO: Finished [80/100] iterations
+[18:50:42]: INFO: Finished [90/100] iterations
+[18:50:45]: INFO: Best found correlation: 0.366547
+[18:50:45]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.294041) + (x * 0.381437) + (x - 0.213993) + (x - 0.037953) + (0.304629 - 0.208834) + (x + 0.308319) + (0.372676 + 0.106724) + (x * 0.063134) + (0.205843 * 0.037494) + (0.322146 - 0.415046)
+[18:50:45]: INFO: Exporting results into out/patient_5_axis_X_Apple M1 Pro.svg
+[18:50:45]: INFO: Results exported
+[18:50:45]: INFO: Initial correlation (axis 1) is -0.233115
+[18:50:45]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:50:45]: INFO: Found correlation: -0.233110 in 1. iteration
+[18:50:45]: INFO: Found correlation: -0.233110 in 1. iteration
+[18:50:48]: INFO: Finished [10/100] iterations
+[18:50:50]: INFO: Finished [20/100] iterations
+[18:50:53]: INFO: Finished [30/100] iterations
+[18:50:55]: INFO: Finished [40/100] iterations
+[18:50:58]: INFO: Finished [50/100] iterations
+[18:51:0]: INFO: Finished [60/100] iterations
+[18:51:3]: INFO: Finished [70/100] iterations
+[18:51:5]: INFO: Finished [80/100] iterations
+[18:51:8]: INFO: Finished [90/100] iterations
+[18:51:10]: INFO: Best found correlation: -0.233110
+[18:51:10]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.494681) + (0.384418 / 0.194288) + (x + 0.411374) + (0.307079 + 0.113868) + (x / 0.171978) + (0.158573 / 0.103167) + (x / 0.051432) + (x - 0.445122) + (0.384994 * 0.388644) + (x * 0.168279)
+[18:51:10]: INFO: Exporting results into out/patient_5_axis_Y_Apple M1 Pro.svg
+[18:51:10]: INFO: Results exported
+[18:51:10]: INFO: Initial correlation (axis 2) is -0.191525
+[18:51:10]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:51:10]: INFO: Found correlation: -0.191523 in 1. iteration
+[18:51:10]: INFO: Found correlation: -0.191523 in 1. iteration
+[18:51:13]: INFO: Finished [10/100] iterations
+[18:51:15]: INFO: Finished [20/100] iterations
+[18:51:18]: INFO: Finished [30/100] iterations
+[18:51:20]: INFO: Finished [40/100] iterations
+[18:51:23]: INFO: Finished [50/100] iterations
+[18:51:25]: INFO: Finished [60/100] iterations
+[18:51:27]: INFO: Finished [70/100] iterations
+[18:51:30]: INFO: Finished [80/100] iterations
+[18:51:32]: INFO: Finished [90/100] iterations
+[18:51:35]: INFO: Best found correlation: -0.191523
+[18:51:35]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.385158) + (x + 0.073084) + (0.073059 / 0.475826) + (x + 0.050785) + (0.426312 * 0.249344) + (0.370775 * 0.127926) + (x / 0.200354) + (0.315375 - 0.095899) + (x / 0.308547) + (x * 0.128480)
+[18:51:35]: INFO: Exporting results into out/patient_5_axis_Z_Apple M1 Pro.svg
+[18:51:35]: INFO: Results exported
+[18:51:35]: INFO: Timestamp difference calculated: -10
+[18:51:35]: INFO: Beginning parsing file resources/006/ACC_006.csv
+[18:51:35]: INFO: Parsed 1000000 lines in current ACC file
+[18:51:35]: INFO: Parsed 2000000 lines in current ACC file
+[18:51:35]: INFO: Parsed 3000000 lines in current ACC file
+[18:51:36]: INFO: Parsed 4000000 lines in current ACC file
+[18:51:36]: INFO: Parsed 5000000 lines in current ACC file
+[18:51:36]: INFO: Parsed 6000000 lines in current ACC file
+[18:51:36]: INFO: Parsed 7000000 lines in current ACC file
+[18:51:37]: INFO: Parsed 8000000 lines in current ACC file
+[18:51:37]: INFO: Parsed 9000000 lines in current ACC file
+[18:51:37]: INFO: Parsed 10000000 lines in current ACC file
+[18:51:37]: INFO: Parsed 11000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 12000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 13000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 14000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 15000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 16000000 lines in current ACC file
+[18:51:38]: INFO: Parsed 16000116 lines from resources/006/ACC_006.csv
+[18:51:39]: INFO: Beginning normalizing ACC values... 
+[18:51:39]: INFO: Beginning normalizing ACC values... 
+[18:51:39]: INFO: Beginning normalizing ACC values... 
+[18:51:39]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:51:39]: INFO: Beginning parsing file resources/006/HR_006.csv
+[18:51:39]: INFO: Parsed 100000 in the current HR file
+[18:51:39]: INFO: Parsed 200000 in the current HR file
+[18:51:39]: INFO: Parsed 300000 in the current HR file
+[18:51:39]: INFO: Parsed 400000 in the current HR file
+[18:51:39]: INFO: Initial correlation (axis 0) is 0.175462
+[18:51:39]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:51:39]: INFO: Found correlation: 0.175457 in 1. iteration
+[18:51:39]: INFO: Found correlation: 0.175457 in 1. iteration
+[18:51:41]: INFO: Finished [10/100] iterations
+[18:51:43]: INFO: Finished [20/100] iterations
+[18:51:45]: INFO: Finished [30/100] iterations
+[18:51:46]: INFO: Finished [40/100] iterations
+[18:51:48]: INFO: Finished [50/100] iterations
+[18:51:50]: INFO: Finished [60/100] iterations
+[18:51:52]: INFO: Finished [70/100] iterations
+[18:51:54]: INFO: Finished [80/100] iterations
+[18:51:56]: INFO: Finished [90/100] iterations
+[18:51:57]: INFO: Best found correlation: 0.175457
+[18:51:57]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.381706) + (0.150242 + 0.430648) + (x - 0.112613) + (0.176839 / 0.368464) + (0.029895 + 0.190208) + (0.322013 * 0.067241) + (x / 0.217304) + (0.012611 / 0.039242) + (x / 0.008972) + (x + 0.403943)
+[18:51:57]: INFO: Exporting results into out/patient_6_axis_X_Apple M1 Pro.svg
+[18:51:57]: INFO: Results exported
+[18:51:57]: INFO: Initial correlation (axis 1) is 0.049204
+[18:51:57]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:51:57]: INFO: Found correlation: 0.049203 in 1. iteration
+[18:51:57]: INFO: Found correlation: 0.049203 in 1. iteration
+[18:52:0]: INFO: Finished [10/100] iterations
+[18:52:2]: INFO: Finished [20/100] iterations
+[18:52:4]: INFO: Finished [30/100] iterations
+[18:52:6]: INFO: Finished [40/100] iterations
+[18:52:8]: INFO: Finished [50/100] iterations
+[18:52:9]: INFO: Finished [60/100] iterations
+[18:52:12]: INFO: Finished [70/100] iterations
+[18:52:15]: INFO: Finished [80/100] iterations
+[18:52:17]: INFO: Finished [90/100] iterations
+[18:52:19]: INFO: Best found correlation: 0.049203
+[18:52:19]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.030965) + (x / 0.172067) + (0.038874 / 0.336985) + (0.477172 - 0.457061) + (x + 0.016211) + (x + 0.069238) + (x - 0.285908) + (x - 0.232068) + (0.450134 / 0.194898) + (0.185470 * 0.023579)
+[18:52:19]: INFO: Exporting results into out/patient_6_axis_Y_Apple M1 Pro.svg
+[18:52:19]: INFO: Results exported
+[18:52:19]: INFO: Initial correlation (axis 2) is -0.204091
+[18:52:19]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:52:19]: INFO: Found correlation: -0.204086 in 1. iteration
+[18:52:21]: INFO: Finished [10/100] iterations
+[18:52:23]: INFO: Finished [20/100] iterations
+[18:52:25]: INFO: Finished [30/100] iterations
+[18:52:27]: INFO: Finished [40/100] iterations
+[18:52:29]: INFO: Finished [50/100] iterations
+[18:52:31]: INFO: Finished [60/100] iterations
+[18:52:33]: INFO: Finished [70/100] iterations
+[18:52:35]: INFO: Finished [80/100] iterations
+[18:52:37]: INFO: Finished [90/100] iterations
+[18:52:38]: INFO: Best found correlation: -0.204086
+[18:52:38]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.461413) + (x * 0.296524) + (x * 0.201873) + (x + 0.437148) + (x * 0.013123) + (x / 0.156925) + (0.267846 * 0.145710) + (x / 0.290774) + (x / 0.109213) + (0.181788 - 0.164541)
+[18:52:38]: INFO: Exporting results into out/patient_6_axis_Z_Apple M1 Pro.svg
+[18:52:38]: INFO: Results exported
+[18:52:38]: INFO: Timestamp difference calculated: -10
+[18:52:38]: INFO: Beginning parsing file resources/007/ACC_007.csv
+[18:52:39]: INFO: Parsed 1000000 lines in current ACC file
+[18:52:39]: INFO: Parsed 2000000 lines in current ACC file
+[18:52:39]: INFO: Parsed 3000000 lines in current ACC file
+[18:52:39]: INFO: Parsed 4000000 lines in current ACC file
+[18:52:40]: INFO: Parsed 5000000 lines in current ACC file
+[18:52:40]: INFO: Parsed 6000000 lines in current ACC file
+[18:52:40]: INFO: Parsed 7000000 lines in current ACC file
+[18:52:40]: INFO: Parsed 8000000 lines in current ACC file
+[18:52:40]: INFO: Parsed 9000000 lines in current ACC file
+[18:52:41]: INFO: Parsed 10000000 lines in current ACC file
+[18:52:41]: INFO: Parsed 11000000 lines in current ACC file
+[18:52:41]: INFO: Parsed 12000000 lines in current ACC file
+[18:52:41]: INFO: Parsed 13000000 lines in current ACC file
+[18:52:42]: INFO: Parsed 14000000 lines in current ACC file
+[18:52:42]: INFO: Parsed 15000000 lines in current ACC file
+[18:52:42]: INFO: Parsed 16000000 lines in current ACC file
+[18:52:42]: INFO: Parsed 17000000 lines in current ACC file
+[18:52:43]: INFO: Parsed 18000000 lines in current ACC file
+[18:52:43]: INFO: Parsed 19000000 lines in current ACC file
+[18:52:43]: INFO: Parsed 20000000 lines in current ACC file
+[18:52:43]: INFO: Parsed 20761896 lines from resources/007/ACC_007.csv
+[18:52:43]: INFO: Beginning normalizing ACC values... 
+[18:52:43]: INFO: Beginning normalizing ACC values... 
+[18:52:43]: INFO: Beginning normalizing ACC values... 
+[18:52:43]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:52:43]: INFO: Beginning parsing file resources/007/HR_007.csv
+[18:52:43]: INFO: Parsed 100000 in the current HR file
+[18:52:43]: INFO: Parsed 200000 in the current HR file
+[18:52:43]: INFO: Parsed 300000 in the current HR file
+[18:52:43]: INFO: Parsed 400000 in the current HR file
+[18:52:43]: INFO: Parsed 500000 in the current HR file
+[18:52:43]: INFO: Parsed 600000 in the current HR file
+[18:52:44]: INFO: Initial correlation (axis 0) is 0.227925
+[18:52:44]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:52:44]: INFO: Found correlation: 0.227923 in 1. iteration
+[18:52:46]: INFO: Finished [10/100] iterations
+[18:52:49]: INFO: Finished [20/100] iterations
+[18:52:51]: INFO: Finished [30/100] iterations
+[18:52:54]: INFO: Finished [40/100] iterations
+[18:52:57]: INFO: Finished [50/100] iterations
+[18:52:59]: INFO: Finished [60/100] iterations
+[18:53:2]: INFO: Finished [70/100] iterations
+[18:53:4]: INFO: Finished [80/100] iterations
+[18:53:7]: INFO: Finished [90/100] iterations
+[18:53:9]: INFO: Best found correlation: 0.227923
+[18:53:9]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.196497) + (0.370771 - 0.246960) + (x * 0.401091) + (x / 0.233026) + (x / 0.040475) + (x * 0.474534) + (x * 0.112658) + (x + 0.276266) + (0.402325 / 0.490729) + (x + 0.177174)
+[18:53:9]: INFO: Exporting results into out/patient_7_axis_X_Apple M1 Pro.svg
+[18:53:9]: INFO: Results exported
+[18:53:9]: INFO: Initial correlation (axis 1) is -0.114912
+[18:53:9]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:53:9]: INFO: Found correlation: -0.114909 in 1. iteration
+[18:53:9]: INFO: Found correlation: -0.114909 in 1. iteration
+[18:53:12]: INFO: Finished [10/100] iterations
+[18:53:15]: INFO: Finished [20/100] iterations
+[18:53:17]: INFO: Finished [30/100] iterations
+[18:53:20]: INFO: Finished [40/100] iterations
+[18:53:22]: INFO: Finished [50/100] iterations
+[18:53:24]: INFO: Finished [60/100] iterations
+[18:53:27]: INFO: Finished [70/100] iterations
+[18:53:29]: INFO: Finished [80/100] iterations
+[18:53:32]: INFO: Finished [90/100] iterations
+[18:53:34]: INFO: Best found correlation: -0.114909
+[18:53:34]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.222489) + (x / 0.473258) + (0.166255 / 0.225606) + (0.370084 / 0.281404) + (x - 0.144875) + (x + 0.239052) + (x + 0.175039) + (x - 0.371828) + (x + 0.211268) + (0.170450 + 0.032526)
+[18:53:34]: INFO: Exporting results into out/patient_7_axis_Y_Apple M1 Pro.svg
+[18:53:34]: INFO: Results exported
+[18:53:34]: INFO: Initial correlation (axis 2) is -0.198356
+[18:53:34]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:53:34]: INFO: Found correlation: -0.198348 in 1. iteration
+[18:53:34]: INFO: Found correlation: -0.198348 in 1. iteration
+[18:53:37]: INFO: Finished [10/100] iterations
+[18:53:40]: INFO: Finished [20/100] iterations
+[18:53:42]: INFO: Finished [30/100] iterations
+[18:53:44]: INFO: Finished [40/100] iterations
+[18:53:47]: INFO: Finished [50/100] iterations
+[18:53:49]: INFO: Finished [60/100] iterations
+[18:53:52]: INFO: Finished [70/100] iterations
+[18:53:54]: INFO: Finished [80/100] iterations
+[18:53:57]: INFO: Finished [90/100] iterations
+[18:53:59]: INFO: Best found correlation: -0.198348
+[18:53:59]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.319667) + (0.321904 - 0.251549) + (0.112183 / 0.203105) + (0.231035 + 0.196310) + (x + 0.249743) + (x - 0.008968) + (x / 0.468143) + (0.176685 - 0.420496) + (0.372369 * 0.379203) + (0.100524 + 0.071254)
+[18:53:59]: INFO: Exporting results into out/patient_7_axis_Z_Apple M1 Pro.svg
+[18:53:59]: INFO: Results exported
+[18:53:59]: INFO: Timestamp difference calculated: -10
+[18:53:59]: INFO: Beginning parsing file resources/008/ACC_008.csv
+[18:53:59]: INFO: Parsed 1000000 lines in current ACC file
+[18:54:0]: INFO: Parsed 2000000 lines in current ACC file
+[18:54:0]: INFO: Parsed 3000000 lines in current ACC file
+[18:54:0]: INFO: Parsed 4000000 lines in current ACC file
+[18:54:0]: INFO: Parsed 5000000 lines in current ACC file
+[18:54:1]: INFO: Parsed 6000000 lines in current ACC file
+[18:54:1]: INFO: Parsed 7000000 lines in current ACC file
+[18:54:1]: INFO: Parsed 8000000 lines in current ACC file
+[18:54:1]: INFO: Parsed 9000000 lines in current ACC file
+[18:54:2]: INFO: Parsed 10000000 lines in current ACC file
+[18:54:2]: INFO: Parsed 11000000 lines in current ACC file
+[18:54:2]: INFO: Parsed 12000000 lines in current ACC file
+[18:54:2]: INFO: Parsed 13000000 lines in current ACC file
+[18:54:2]: INFO: Parsed 14000000 lines in current ACC file
+[18:54:3]: INFO: Parsed 15000000 lines in current ACC file
+[18:54:3]: INFO: Parsed 16000000 lines in current ACC file
+[18:54:3]: INFO: Parsed 17000000 lines in current ACC file
+[18:54:3]: INFO: Parsed 18000000 lines in current ACC file
+[18:54:4]: INFO: Parsed 19000000 lines in current ACC file
+[18:54:4]: INFO: Parsed 20000000 lines in current ACC file
+[18:54:4]: INFO: Parsed 21000000 lines in current ACC file
+[18:54:4]: INFO: Parsed 21315942 lines from resources/008/ACC_008.csv
+[18:54:4]: INFO: Beginning normalizing ACC values... 
+[18:54:4]: INFO: Beginning normalizing ACC values... 
+[18:54:4]: INFO: Beginning normalizing ACC values... 
+[18:54:4]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:54:4]: INFO: Beginning parsing file resources/008/HR_008.csv
+[18:54:4]: INFO: Parsed 100000 in the current HR file
+[18:54:4]: INFO: Parsed 200000 in the current HR file
+[18:54:4]: INFO: Parsed 300000 in the current HR file
+[18:54:4]: INFO: Parsed 400000 in the current HR file
+[18:54:4]: INFO: Parsed 500000 in the current HR file
+[18:54:4]: INFO: Parsed 600000 in the current HR file
+[18:54:4]: INFO: Initial correlation (axis 0) is 0.358873
+[18:54:4]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:54:4]: INFO: Found correlation: 0.358875 in 1. iteration
+[18:54:7]: INFO: Finished [10/100] iterations
+[18:54:10]: INFO: Finished [20/100] iterations
+[18:54:12]: INFO: Finished [30/100] iterations
+[18:54:14]: INFO: Finished [40/100] iterations
+[18:54:17]: INFO: Finished [50/100] iterations
+[18:54:19]: INFO: Finished [60/100] iterations
+[18:54:22]: INFO: Finished [70/100] iterations
+[18:54:24]: INFO: Finished [80/100] iterations
+[18:54:27]: INFO: Finished [90/100] iterations
+[18:54:29]: INFO: Best found correlation: 0.358875
+[18:54:29]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.477333) + (x * 0.171096) + (x / 0.054154) + (x * 0.139483) + (x - 0.426318) + (0.118240 + 0.032733) + (x + 0.463695) + (0.368971 - 0.204639) + (x * 0.311086) + (x / 0.110647)
+[18:54:29]: INFO: Exporting results into out/patient_8_axis_X_Apple M1 Pro.svg
+[18:54:29]: INFO: Results exported
+[18:54:29]: INFO: Initial correlation (axis 1) is -0.226478
+[18:54:29]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:54:29]: INFO: Found correlation: -0.226476 in 1. iteration
+[18:54:32]: INFO: Finished [10/100] iterations
+[18:54:34]: INFO: Finished [20/100] iterations
+[18:54:37]: INFO: Finished [30/100] iterations
+[18:54:39]: INFO: Finished [40/100] iterations
+[18:54:41]: INFO: Finished [50/100] iterations
+[18:54:44]: INFO: Finished [60/100] iterations
+[18:54:46]: INFO: Finished [70/100] iterations
+[18:54:49]: INFO: Finished [80/100] iterations
+[18:54:51]: INFO: Finished [90/100] iterations
+[18:54:54]: INFO: Best found correlation: -0.226476
+[18:54:54]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.182421) + (0.007778 / 0.324361) + (0.122377 - 0.081105) + (0.452571 - 0.208698) + (x + 0.204877) + (0.390602 / 0.381406) + (x / 0.439246) + (x / 0.353082) + (0.328064 + 0.416143) + (x / 0.172805)
+[18:54:54]: INFO: Exporting results into out/patient_8_axis_Y_Apple M1 Pro.svg
+[18:54:54]: INFO: Results exported
+[18:54:54]: INFO: Initial correlation (axis 2) is 0.101761
+[18:54:54]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:54:54]: INFO: Found correlation: 0.101759 in 1. iteration
+[18:54:54]: INFO: Found correlation: 0.101759 in 1. iteration
+[18:54:56]: INFO: Finished [10/100] iterations
+[18:54:59]: INFO: Finished [20/100] iterations
+[18:55:2]: INFO: Finished [30/100] iterations
+[18:55:4]: INFO: Finished [40/100] iterations
+[18:55:6]: INFO: Finished [50/100] iterations
+[18:55:9]: INFO: Finished [60/100] iterations
+[18:55:11]: INFO: Finished [70/100] iterations
+[18:55:14]: INFO: Finished [80/100] iterations
+[18:55:16]: INFO: Finished [90/100] iterations
+[18:55:19]: INFO: Best found correlation: 0.101759
+[18:55:19]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.286980) + (x - 0.245750) + (0.007433 / 0.299357) + (x + 0.447694) + (0.421144 / 0.078850) + (0.213503 - 0.258504) + (x - 0.246218) + (0.167875 - 0.155461) + (0.168295 + 0.038523) + (x * 0.027438)
+[18:55:19]: INFO: Exporting results into out/patient_8_axis_Z_Apple M1 Pro.svg
+[18:55:19]: INFO: Results exported
+[18:55:19]: INFO: Timestamp difference calculated: -10
+[18:55:19]: INFO: Beginning parsing file resources/009/ACC_009.csv
+[18:55:19]: INFO: Parsed 1000000 lines in current ACC file
+[18:55:19]: INFO: Parsed 2000000 lines in current ACC file
+[18:55:19]: INFO: Parsed 3000000 lines in current ACC file
+[18:55:20]: INFO: Parsed 4000000 lines in current ACC file
+[18:55:20]: INFO: Parsed 5000000 lines in current ACC file
+[18:55:20]: INFO: Parsed 6000000 lines in current ACC file
+[18:55:20]: INFO: Parsed 7000000 lines in current ACC file
+[18:55:20]: INFO: Parsed 8000000 lines in current ACC file
+[18:55:21]: INFO: Parsed 9000000 lines in current ACC file
+[18:55:21]: INFO: Parsed 10000000 lines in current ACC file
+[18:55:21]: INFO: Parsed 11000000 lines in current ACC file
+[18:55:21]: INFO: Parsed 12000000 lines in current ACC file
+[18:55:22]: INFO: Parsed 13000000 lines in current ACC file
+[18:55:22]: INFO: Parsed 14000000 lines in current ACC file
+[18:55:22]: INFO: Parsed 15000000 lines in current ACC file
+[18:55:22]: INFO: Parsed 16000000 lines in current ACC file
+[18:55:23]: INFO: Parsed 17000000 lines in current ACC file
+[18:55:23]: INFO: Parsed 18000000 lines in current ACC file
+[18:55:23]: INFO: Parsed 19000000 lines in current ACC file
+[18:55:23]: INFO: Parsed 20000000 lines in current ACC file
+[18:55:23]: INFO: Parsed 20305800 lines from resources/009/ACC_009.csv
+[18:55:23]: INFO: Beginning normalizing ACC values... 
+[18:55:23]: INFO: Beginning normalizing ACC values... 
+[18:55:23]: INFO: Beginning normalizing ACC values... 
+[18:55:24]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:55:24]: INFO: Beginning parsing file resources/009/HR_009.csv
+[18:55:24]: INFO: Parsed 100000 in the current HR file
+[18:55:24]: INFO: Parsed 200000 in the current HR file
+[18:55:24]: INFO: Parsed 300000 in the current HR file
+[18:55:24]: INFO: Parsed 400000 in the current HR file
+[18:55:24]: INFO: Parsed 500000 in the current HR file
+[18:55:24]: INFO: Parsed 600000 in the current HR file
+[18:55:24]: INFO: Initial correlation (axis 0) is -0.165368
+[18:55:24]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:55:24]: INFO: Found correlation: -0.165368 in 1. iteration
+[18:55:24]: INFO: Found correlation: -0.165368 in 1. iteration
+[18:55:27]: INFO: Finished [10/100] iterations
+[18:55:29]: INFO: Finished [20/100] iterations
+[18:55:32]: INFO: Finished [30/100] iterations
+[18:55:34]: INFO: Finished [40/100] iterations
+[18:55:37]: INFO: Finished [50/100] iterations
+[18:55:39]: INFO: Finished [60/100] iterations
+[18:55:42]: INFO: Finished [70/100] iterations
+[18:55:44]: INFO: Finished [80/100] iterations
+[18:55:47]: INFO: Finished [90/100] iterations
+[18:55:49]: INFO: Best found correlation: -0.165368
+[18:55:49]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.148029) + (0.236332 / 0.008718) + (0.342568 * 0.033883) + (x - 0.256688) + (x - 0.015712) + (0.389885 + 0.396509) + (0.080890 + 0.099666) + (0.196306 / 0.386485) + (x / 0.428117) + (x / 0.127500)
+[18:55:49]: INFO: Exporting results into out/patient_9_axis_X_Apple M1 Pro.svg
+[18:55:49]: INFO: Results exported
+[18:55:49]: INFO: Initial correlation (axis 1) is 0.153131
+[18:55:49]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:55:49]: INFO: Found correlation: 0.153133 in 1. iteration
+[18:55:49]: INFO: Found correlation: 0.153133 in 1. iteration
+[18:55:52]: INFO: Finished [10/100] iterations
+[18:55:54]: INFO: Finished [20/100] iterations
+[18:55:57]: INFO: Finished [30/100] iterations
+[18:55:59]: INFO: Finished [40/100] iterations
+[18:56:2]: INFO: Finished [50/100] iterations
+[18:56:4]: INFO: Finished [60/100] iterations
+[18:56:6]: INFO: Finished [70/100] iterations
+[18:56:9]: INFO: Finished [80/100] iterations
+[18:56:11]: INFO: Finished [90/100] iterations
+[18:56:14]: INFO: Best found correlation: 0.153133
+[18:56:14]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.116087) + (0.363798 / 0.381768) + (0.488170 - 0.107440) + (0.254457 / 0.286714) + (0.306461 * 0.245881) + (0.499517 / 0.316023) + (x - 0.206216) + (x + 0.498507) + (x + 0.200059) + (x / 0.015690)
+[18:56:14]: INFO: Exporting results into out/patient_9_axis_Y_Apple M1 Pro.svg
+[18:56:14]: INFO: Results exported
+[18:56:14]: INFO: Initial correlation (axis 2) is 0.083910
+[18:56:14]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:56:14]: INFO: Found correlation: 0.083908 in 1. iteration
+[18:56:14]: INFO: Found correlation: 0.083908 in 1. iteration
+[18:56:16]: INFO: Finished [10/100] iterations
+[18:56:19]: INFO: Finished [20/100] iterations
+[18:56:21]: INFO: Finished [30/100] iterations
+[18:56:24]: INFO: Finished [40/100] iterations
+[18:56:26]: INFO: Finished [50/100] iterations
+[18:56:29]: INFO: Finished [60/100] iterations
+[18:56:31]: INFO: Finished [70/100] iterations
+[18:56:34]: INFO: Finished [80/100] iterations
+[18:56:36]: INFO: Finished [90/100] iterations
+[18:56:38]: INFO: Best found correlation: 0.083908
+[18:56:38]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.011677) + (0.400066 * 0.115185) + (x / 0.219413) + (0.499812 * 0.147048) + (x * 0.287014) + (x + 0.462104) + (x / 0.191334) + (x * 0.221331) + (0.130477 * 0.242385) + (x / 0.012571)
+[18:56:38]: INFO: Exporting results into out/patient_9_axis_Z_Apple M1 Pro.svg
+[18:56:38]: INFO: Results exported
+[18:56:38]: INFO: Timestamp difference calculated: -10
+[18:56:38]: INFO: Beginning parsing file resources/010/ACC_010.csv
+[18:56:39]: INFO: Parsed 1000000 lines in current ACC file
+[18:56:39]: INFO: Parsed 2000000 lines in current ACC file
+[18:56:39]: INFO: Parsed 3000000 lines in current ACC file
+[18:56:39]: INFO: Parsed 4000000 lines in current ACC file
+[18:56:39]: INFO: Parsed 5000000 lines in current ACC file
+[18:56:40]: INFO: Parsed 6000000 lines in current ACC file
+[18:56:40]: INFO: Parsed 7000000 lines in current ACC file
+[18:56:40]: INFO: Parsed 8000000 lines in current ACC file
+[18:56:40]: INFO: Parsed 9000000 lines in current ACC file
+[18:56:41]: INFO: Parsed 10000000 lines in current ACC file
+[18:56:41]: INFO: Parsed 11000000 lines in current ACC file
+[18:56:41]: INFO: Parsed 12000000 lines in current ACC file
+[18:56:41]: INFO: Parsed 13000000 lines in current ACC file
+[18:56:42]: INFO: Parsed 14000000 lines in current ACC file
+[18:56:42]: INFO: Parsed 15000000 lines in current ACC file
+[18:56:42]: INFO: Parsed 16000000 lines in current ACC file
+[18:56:42]: INFO: Parsed 17000000 lines in current ACC file
+[18:56:43]: INFO: Parsed 18000000 lines in current ACC file
+[18:56:43]: INFO: Parsed 19000000 lines in current ACC file
+[18:56:43]: INFO: Parsed 20000000 lines in current ACC file
+[18:56:43]: INFO: Parsed 20855286 lines from resources/010/ACC_010.csv
+[18:56:43]: INFO: Beginning normalizing ACC values... 
+[18:56:43]: INFO: Beginning normalizing ACC values... 
+[18:56:43]: INFO: Beginning normalizing ACC values... 
+[18:56:43]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:56:43]: INFO: Beginning parsing file resources/010/HR_010.csv
+[18:56:43]: INFO: Parsed 100000 in the current HR file
+[18:56:43]: INFO: Parsed 200000 in the current HR file
+[18:56:43]: INFO: Parsed 300000 in the current HR file
+[18:56:43]: INFO: Parsed 400000 in the current HR file
+[18:56:43]: INFO: Parsed 500000 in the current HR file
+[18:56:43]: INFO: Parsed 600000 in the current HR file
+[18:56:43]: INFO: Initial correlation (axis 0) is -0.260247
+[18:56:43]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:56:43]: INFO: Found correlation: -0.260244 in 1. iteration
+[18:56:43]: INFO: Found correlation: -0.260244 in 1. iteration
+[18:56:46]: INFO: Finished [10/100] iterations
+[18:56:49]: INFO: Finished [20/100] iterations
+[18:56:51]: INFO: Finished [30/100] iterations
+[18:56:54]: INFO: Finished [40/100] iterations
+[18:56:56]: INFO: Finished [50/100] iterations
+[18:56:58]: INFO: Finished [60/100] iterations
+[18:57:1]: INFO: Finished [70/100] iterations
+[18:57:3]: INFO: Finished [80/100] iterations
+[18:57:6]: INFO: Finished [90/100] iterations
+[18:57:8]: INFO: Best found correlation: -0.260244
+[18:57:8]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.084447) + (0.190133 / 0.451602) + (0.074315 / 0.432737) + (x * 0.320824) + (x / 0.074057) + (0.045870 + 0.451342) + (x * 0.270755) + (0.214912 / 0.229873) + (0.426380 / 0.015108) + (0.215219 + 0.218109)
+[18:57:8]: INFO: Exporting results into out/patient_10_axis_X_Apple M1 Pro.svg
+[18:57:8]: INFO: Results exported
+[18:57:8]: INFO: Initial correlation (axis 1) is 0.055159
+[18:57:8]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:57:8]: INFO: Found correlation: 0.055158 in 1. iteration
+[18:57:11]: INFO: Finished [10/100] iterations
+[18:57:13]: INFO: Finished [20/100] iterations
+[18:57:16]: INFO: Finished [30/100] iterations
+[18:57:18]: INFO: Finished [40/100] iterations
+[18:57:21]: INFO: Finished [50/100] iterations
+[18:57:23]: INFO: Finished [60/100] iterations
+[18:57:25]: INFO: Finished [70/100] iterations
+[18:57:28]: INFO: Finished [80/100] iterations
+[18:57:30]: INFO: Finished [90/100] iterations
+[18:57:33]: INFO: Best found correlation: 0.055158
+[18:57:33]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.128299) + (x / 0.028927) + (x + 0.498208) + (0.434605 / 0.343988) + (0.051120 / 0.203115) + (0.280537 - 0.190330) + (x / 0.260216) + (x / 0.122344) + (x + 0.216576) + (x * 0.036528)
+[18:57:33]: INFO: Exporting results into out/patient_10_axis_Y_Apple M1 Pro.svg
+[18:57:33]: INFO: Results exported
+[18:57:33]: INFO: Initial correlation (axis 2) is -0.060508
+[18:57:33]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:57:33]: INFO: Found correlation: -0.060507 in 1. iteration
+[18:57:33]: INFO: Found correlation: -0.060507 in 1. iteration
+[18:57:35]: INFO: Finished [10/100] iterations
+[18:57:38]: INFO: Finished [20/100] iterations
+[18:57:40]: INFO: Finished [30/100] iterations
+[18:57:43]: INFO: Finished [40/100] iterations
+[18:57:45]: INFO: Finished [50/100] iterations
+[18:57:48]: INFO: Finished [60/100] iterations
+[18:57:50]: INFO: Finished [70/100] iterations
+[18:57:52]: INFO: Finished [80/100] iterations
+[18:57:55]: INFO: Finished [90/100] iterations
+[18:57:57]: INFO: Best found correlation: -0.060507
+[18:57:57]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.384360) + (0.007245 - 0.088754) + (x / 0.388672) + (0.400825 / 0.265917) + (0.470437 * 0.278579) + (0.186908 / 0.414426) + (x + 0.473572) + (0.129548 * 0.475523) + (0.019038 * 0.135550) + (0.148495 + 0.325191)
+[18:57:57]: INFO: Exporting results into out/patient_10_axis_Z_Apple M1 Pro.svg
+[18:57:57]: INFO: Results exported
+[18:57:57]: INFO: Timestamp difference calculated: -10
+[18:57:57]: INFO: Beginning parsing file resources/011/ACC_011.csv
+[18:57:57]: INFO: Parsed 1000000 lines in current ACC file
+[18:57:58]: INFO: Parsed 2000000 lines in current ACC file
+[18:57:58]: INFO: Parsed 3000000 lines in current ACC file
+[18:57:58]: INFO: Parsed 4000000 lines in current ACC file
+[18:57:58]: INFO: Parsed 5000000 lines in current ACC file
+[18:57:59]: INFO: Parsed 6000000 lines in current ACC file
+[18:57:59]: INFO: Parsed 7000000 lines in current ACC file
+[18:57:59]: INFO: Parsed 8000000 lines in current ACC file
+[18:57:59]: INFO: Parsed 9000000 lines in current ACC file
+[18:58:0]: INFO: Parsed 10000000 lines in current ACC file
+[18:58:0]: INFO: Parsed 11000000 lines in current ACC file
+[18:58:0]: INFO: Parsed 12000000 lines in current ACC file
+[18:58:0]: INFO: Parsed 13000000 lines in current ACC file
+[18:58:0]: INFO: Parsed 14000000 lines in current ACC file
+[18:58:1]: INFO: Parsed 15000000 lines in current ACC file
+[18:58:1]: INFO: Parsed 16000000 lines in current ACC file
+[18:58:1]: INFO: Parsed 17000000 lines in current ACC file
+[18:58:1]: INFO: Parsed 18000000 lines in current ACC file
+[18:58:2]: INFO: Parsed 19000000 lines in current ACC file
+[18:58:2]: INFO: Parsed 20000000 lines in current ACC file
+[18:58:2]: INFO: Parsed 21000000 lines in current ACC file
+[18:58:2]: INFO: Parsed 21153726 lines from resources/011/ACC_011.csv
+[18:58:2]: INFO: Beginning normalizing ACC values... 
+[18:58:2]: INFO: Beginning normalizing ACC values... 
+[18:58:2]: INFO: Beginning normalizing ACC values... 
+[18:58:2]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:58:2]: INFO: Beginning parsing file resources/011/HR_011.csv
+[18:58:2]: INFO: Parsed 100000 in the current HR file
+[18:58:2]: INFO: Parsed 200000 in the current HR file
+[18:58:2]: INFO: Parsed 300000 in the current HR file
+[18:58:2]: INFO: Parsed 400000 in the current HR file
+[18:58:2]: INFO: Parsed 500000 in the current HR file
+[18:58:2]: INFO: Parsed 600000 in the current HR file
+[18:58:2]: INFO: Initial correlation (axis 0) is -0.063953
+[18:58:2]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:58:2]: INFO: Found correlation: -0.063954 in 1. iteration
+[18:58:2]: INFO: Found correlation: -0.063954 in 1. iteration
+[18:58:5]: INFO: Finished [10/100] iterations
+[18:58:8]: INFO: Finished [20/100] iterations
+[18:58:10]: INFO: Finished [30/100] iterations
+[18:58:12]: INFO: Finished [40/100] iterations
+[18:58:15]: INFO: Finished [50/100] iterations
+[18:58:17]: INFO: Finished [60/100] iterations
+[18:58:20]: INFO: Finished [70/100] iterations
+[18:58:22]: INFO: Finished [80/100] iterations
+[18:58:25]: INFO: Finished [90/100] iterations
+[18:58:27]: INFO: Best found correlation: -0.063954
+[18:58:27]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.206171) + (0.242320 * 0.416211) + (0.027676 * 0.352570) + (0.448734 + 0.096321) + (x + 0.028041) + (0.169626 * 0.002606) + (0.236709 - 0.314259) + (0.082932 + 0.346152) + (0.137704 - 0.135871) + (0.327519 + 0.046192)
+[18:58:27]: INFO: Exporting results into out/patient_11_axis_X_Apple M1 Pro.svg
+[18:58:27]: INFO: Results exported
+[18:58:27]: INFO: Initial correlation (axis 1) is -0.269928
+[18:58:27]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:58:27]: INFO: Found correlation: -0.269925 in 1. iteration
+[18:58:27]: INFO: Found correlation: -0.269925 in 1. iteration
+[18:58:30]: INFO: Finished [10/100] iterations
+[18:58:32]: INFO: Finished [20/100] iterations
+[18:58:35]: INFO: Finished [30/100] iterations
+[18:58:37]: INFO: Finished [40/100] iterations
+[18:58:40]: INFO: Finished [50/100] iterations
+[18:58:42]: INFO: Finished [60/100] iterations
+[18:58:44]: INFO: Finished [70/100] iterations
+[18:58:47]: INFO: Finished [80/100] iterations
+[18:58:49]: INFO: Finished [90/100] iterations
+[18:58:52]: INFO: Best found correlation: -0.269925
+[18:58:52]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.391251) + (0.428238 - 0.491208) + (0.344227 - 0.115120) + (x / 0.394626) + (0.186722 - 0.040093) + (x + 0.373673) + (0.190290 - 0.227799) + (x / 0.454110) + (x + 0.069710) + (0.010442 / 0.299472)
+[18:58:52]: INFO: Exporting results into out/patient_11_axis_Y_Apple M1 Pro.svg
+[18:58:52]: INFO: Results exported
+[18:58:52]: INFO: Initial correlation (axis 2) is -0.259825
+[18:58:52]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:58:52]: INFO: Found correlation: -0.259815 in 1. iteration
+[18:58:54]: INFO: Finished [10/100] iterations
+[18:58:57]: INFO: Finished [20/100] iterations
+[18:58:59]: INFO: Finished [30/100] iterations
+[18:59:2]: INFO: Finished [40/100] iterations
+[18:59:4]: INFO: Finished [50/100] iterations
+[18:59:7]: INFO: Finished [60/100] iterations
+[18:59:9]: INFO: Finished [70/100] iterations
+[18:59:12]: INFO: Finished [80/100] iterations
+[18:59:14]: INFO: Finished [90/100] iterations
+[18:59:16]: INFO: Best found correlation: -0.259815
+[18:59:16]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.070548) + (0.378723 + 0.322499) + (0.423384 * 0.224045) + (x / 0.098274) + (x - 0.117901) + (0.433898 - 0.231546) + (0.259850 - 0.481500) + (x - 0.414279) + (x + 0.361967) + (x - 0.396333)
+[18:59:16]: INFO: Exporting results into out/patient_11_axis_Z_Apple M1 Pro.svg
+[18:59:16]: INFO: Results exported
+[18:59:16]: INFO: Timestamp difference calculated: -10
+[18:59:16]: INFO: Beginning parsing file resources/012/ACC_012.csv
+[18:59:16]: INFO: Parsed 1000000 lines in current ACC file
+[18:59:17]: INFO: Parsed 2000000 lines in current ACC file
+[18:59:17]: INFO: Parsed 3000000 lines in current ACC file
+[18:59:17]: INFO: Parsed 4000000 lines in current ACC file
+[18:59:17]: INFO: Parsed 5000000 lines in current ACC file
+[18:59:18]: INFO: Parsed 6000000 lines in current ACC file
+[18:59:18]: INFO: Parsed 7000000 lines in current ACC file
+[18:59:18]: INFO: Parsed 8000000 lines in current ACC file
+[18:59:18]: INFO: Parsed 9000000 lines in current ACC file
+[18:59:19]: INFO: Parsed 10000000 lines in current ACC file
+[18:59:19]: INFO: Parsed 11000000 lines in current ACC file
+[18:59:19]: INFO: Parsed 12000000 lines in current ACC file
+[18:59:19]: INFO: Parsed 13000000 lines in current ACC file
+[18:59:20]: INFO: Parsed 14000000 lines in current ACC file
+[18:59:20]: INFO: Parsed 15000000 lines in current ACC file
+[18:59:20]: INFO: Parsed 16000000 lines in current ACC file
+[18:59:20]: INFO: Parsed 17000000 lines in current ACC file
+[18:59:20]: INFO: Parsed 18000000 lines in current ACC file
+[18:59:21]: INFO: Parsed 19000000 lines in current ACC file
+[18:59:21]: INFO: Parsed 19135932 lines from resources/012/ACC_012.csv
+[18:59:21]: INFO: Beginning normalizing ACC values... 
+[18:59:21]: INFO: Beginning normalizing ACC values... 
+[18:59:21]: INFO: Beginning normalizing ACC values... 
+[18:59:21]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[18:59:21]: INFO: Beginning parsing file resources/012/HR_012.csv
+[18:59:21]: INFO: Parsed 100000 in the current HR file
+[18:59:21]: INFO: Parsed 200000 in the current HR file
+[18:59:21]: INFO: Parsed 300000 in the current HR file
+[18:59:21]: INFO: Parsed 400000 in the current HR file
+[18:59:21]: INFO: Parsed 500000 in the current HR file
+[18:59:21]: INFO: Initial correlation (axis 0) is -0.077606
+[18:59:21]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:59:21]: INFO: Found correlation: -0.077604 in 1. iteration
+[18:59:24]: INFO: Finished [10/100] iterations
+[18:59:26]: INFO: Finished [20/100] iterations
+[18:59:29]: INFO: Finished [30/100] iterations
+[18:59:32]: INFO: Finished [40/100] iterations
+[18:59:35]: INFO: Finished [50/100] iterations
+[18:59:37]: INFO: Finished [60/100] iterations
+[18:59:40]: INFO: Finished [70/100] iterations
+[18:59:42]: INFO: Finished [80/100] iterations
+[18:59:45]: INFO: Finished [90/100] iterations
+[18:59:47]: INFO: Best found correlation: -0.077604
+[18:59:47]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.032870) + (x / 0.072406) + (0.014699 * 0.172321) + (0.023077 - 0.129550) + (0.425107 * 0.484501) + (x / 0.015359) + (0.318515 / 0.053514) + (0.151528 / 0.145425) + (0.039919 + 0.437632) + (0.019568 + 0.115277)
+[18:59:47]: INFO: Exporting results into out/patient_12_axis_X_Apple M1 Pro.svg
+[18:59:47]: INFO: Results exported
+[18:59:47]: INFO: Initial correlation (axis 1) is -0.183245
+[18:59:47]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[18:59:47]: INFO: Found correlation: -0.183237 in 1. iteration
+[18:59:50]: INFO: Finished [10/100] iterations
+[18:59:52]: INFO: Finished [20/100] iterations
+[18:59:55]: INFO: Finished [30/100] iterations
+[18:59:57]: INFO: Finished [40/100] iterations
+[19:0:0]: INFO: Finished [50/100] iterations
+[19:0:2]: INFO: Finished [60/100] iterations
+[19:0:5]: INFO: Finished [70/100] iterations
+[19:0:7]: INFO: Finished [80/100] iterations
+[19:0:10]: INFO: Finished [90/100] iterations
+[19:0:12]: INFO: Best found correlation: -0.183237
+[19:0:12]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.178873) + (0.082701 - 0.029954) + (x / 0.287146) + (0.360170 * 0.166791) + (x - 0.454034) + (x * 0.227652) + (x - 0.270681) + (x - 0.134096) + (x + 0.088802) + (x + 0.058787)
+[19:0:12]: INFO: Exporting results into out/patient_12_axis_Y_Apple M1 Pro.svg
+[19:0:12]: INFO: Results exported
+[19:0:12]: INFO: Initial correlation (axis 2) is -0.238987
+[19:0:12]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:0:12]: INFO: Found correlation: -0.238985 in 1. iteration
+[19:0:12]: INFO: Found correlation: -0.238985 in 1. iteration
+[19:0:15]: INFO: Finished [10/100] iterations
+[19:0:17]: INFO: Finished [20/100] iterations
+[19:0:20]: INFO: Finished [30/100] iterations
+[19:0:22]: INFO: Finished [40/100] iterations
+[19:0:25]: INFO: Finished [50/100] iterations
+[19:0:27]: INFO: Finished [60/100] iterations
+[19:0:30]: INFO: Finished [70/100] iterations
+[19:0:32]: INFO: Finished [80/100] iterations
+[19:0:35]: INFO: Finished [90/100] iterations
+[19:0:37]: INFO: Best found correlation: -0.238985
+[19:0:37]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.051417) + (0.234784 - 0.208953) + (x * 0.328599) + (0.231665 / 0.284647) + (x - 0.426548) + (x / 0.475221) + (x - 0.430941) + (x - 0.169889) + (0.139014 + 0.378724) + (0.358761 + 0.217505)
+[19:0:37]: INFO: Exporting results into out/patient_12_axis_Z_Apple M1 Pro.svg
+[19:0:37]: INFO: Results exported
+[19:0:37]: INFO: Timestamp difference calculated: -10
+[19:0:37]: INFO: Beginning parsing file resources/013/ACC_013.csv
+[19:0:37]: INFO: Parsed 1000000 lines in current ACC file
+[19:0:38]: INFO: Parsed 2000000 lines in current ACC file
+[19:0:38]: INFO: Parsed 3000000 lines in current ACC file
+[19:0:38]: INFO: Parsed 4000000 lines in current ACC file
+[19:0:38]: INFO: Parsed 5000000 lines in current ACC file
+[19:0:39]: INFO: Parsed 6000000 lines in current ACC file
+[19:0:39]: INFO: Parsed 7000000 lines in current ACC file
+[19:0:39]: INFO: Parsed 8000000 lines in current ACC file
+[19:0:39]: INFO: Parsed 9000000 lines in current ACC file
+[19:0:40]: INFO: Parsed 10000000 lines in current ACC file
+[19:0:40]: INFO: Parsed 11000000 lines in current ACC file
+[19:0:40]: INFO: Parsed 12000000 lines in current ACC file
+[19:0:40]: INFO: Parsed 13000000 lines in current ACC file
+[19:0:40]: INFO: Parsed 14000000 lines in current ACC file
+[19:0:41]: INFO: Parsed 15000000 lines in current ACC file
+[19:0:41]: INFO: Parsed 16000000 lines in current ACC file
+[19:0:41]: INFO: Parsed 17000000 lines in current ACC file
+[19:0:41]: INFO: Parsed 18000000 lines in current ACC file
+[19:0:42]: INFO: Parsed 19000000 lines in current ACC file
+[19:0:42]: INFO: Parsed 20000000 lines in current ACC file
+[19:0:42]: INFO: Parsed 21000000 lines in current ACC file
+[19:0:42]: INFO: Parsed 22000000 lines in current ACC file
+[19:0:42]: INFO: Parsed 22361658 lines from resources/013/ACC_013.csv
+[19:0:42]: INFO: Beginning normalizing ACC values... 
+[19:0:43]: INFO: Beginning normalizing ACC values... 
+[19:0:43]: INFO: Beginning normalizing ACC values... 
+[19:0:43]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[19:0:43]: INFO: Beginning parsing file resources/013/HR_013.csv
+[19:0:43]: INFO: Parsed 100000 in the current HR file
+[19:0:43]: INFO: Parsed 200000 in the current HR file
+[19:0:43]: INFO: Parsed 300000 in the current HR file
+[19:0:43]: INFO: Parsed 400000 in the current HR file
+[19:0:43]: INFO: Parsed 500000 in the current HR file
+[19:0:43]: INFO: Parsed 600000 in the current HR file
+[19:0:43]: INFO: Initial correlation (axis 0) is -0.455067
+[19:0:43]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:0:43]: INFO: Found correlation: -0.455141 in 1. iteration
+[19:0:43]: INFO: Found correlation: -0.455141 in 1. iteration
+[19:0:45]: INFO: Finished [10/100] iterations
+[19:0:48]: INFO: Finished [20/100] iterations
+[19:0:50]: INFO: Finished [30/100] iterations
+[19:0:53]: INFO: Finished [40/100] iterations
+[19:0:55]: INFO: Finished [50/100] iterations
+[19:0:58]: INFO: Finished [60/100] iterations
+[19:1:0]: INFO: Finished [70/100] iterations
+[19:1:3]: INFO: Finished [80/100] iterations
+[19:1:5]: INFO: Finished [90/100] iterations
+[19:1:7]: INFO: Best found correlation: -0.455141
+[19:1:7]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.374360) + (0.444884 / 0.098832) + (0.371532 + 0.224164) + (x * 0.040289) + (0.268513 / 0.124788) + (0.157715 / 0.290316) + (0.257844 * 0.432719) + (x - 0.042735) + (x * 0.140966) + (x + 0.473157)
+[19:1:7]: INFO: Exporting results into out/patient_13_axis_X_Apple M1 Pro.svg
+[19:1:7]: INFO: Results exported
+[19:1:7]: INFO: Initial correlation (axis 1) is 0.085192
+[19:1:7]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:1:7]: INFO: Found correlation: 0.085197 in 1. iteration
+[19:1:7]: INFO: Found correlation: 0.085197 in 1. iteration
+[19:1:10]: INFO: Finished [10/100] iterations
+[19:1:12]: INFO: Finished [20/100] iterations
+[19:1:15]: INFO: Finished [30/100] iterations
+[19:1:17]: INFO: Finished [40/100] iterations
+[19:1:20]: INFO: Finished [50/100] iterations
+[19:1:22]: INFO: Finished [60/100] iterations
+[19:1:25]: INFO: Finished [70/100] iterations
+[19:1:27]: INFO: Finished [80/100] iterations
+[19:1:30]: INFO: Finished [90/100] iterations
+[19:1:32]: INFO: Best found correlation: 0.085197
+[19:1:32]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.119823) + (0.492196 + 0.247247) + (x * 0.201176) + (0.074763 - 0.135906) + (0.430774 - 0.318485) + (x + 0.454710) + (0.430526 - 0.270439) + (0.361873 / 0.386554) + (0.229540 * 0.180327) + (x / 0.196342)
+[19:1:32]: INFO: Exporting results into out/patient_13_axis_Y_Apple M1 Pro.svg
+[19:1:32]: INFO: Results exported
+[19:1:32]: INFO: Initial correlation (axis 2) is -0.417171
+[19:1:32]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:1:32]: INFO: Found correlation: -0.417177 in 1. iteration
+[19:1:35]: INFO: Finished [10/100] iterations
+[19:1:37]: INFO: Finished [20/100] iterations
+[19:1:39]: INFO: Finished [30/100] iterations
+[19:1:42]: INFO: Finished [40/100] iterations
+[19:1:44]: INFO: Finished [50/100] iterations
+[19:1:47]: INFO: Finished [60/100] iterations
+[19:1:49]: INFO: Finished [70/100] iterations
+[19:1:52]: INFO: Finished [80/100] iterations
+[19:1:54]: INFO: Finished [90/100] iterations
+[19:1:56]: INFO: Best found correlation: -0.417177
+[19:1:56]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.006940) + (x * 0.338120) + (0.466957 - 0.358533) + (0.290533 * 0.374863) + (x / 0.165282) + (0.284514 + 0.114103) + (x - 0.122071) + (0.189120 * 0.206624) + (x + 0.390041) + (x * 0.431749)
+[19:1:56]: INFO: Exporting results into out/patient_13_axis_Z_Apple M1 Pro.svg
+[19:1:56]: INFO: Results exported
+[19:1:56]: INFO: Timestamp difference calculated: -10
+[19:1:56]: INFO: Beginning parsing file resources/014/ACC_014.csv
+[19:1:57]: INFO: Parsed 1000000 lines in current ACC file
+[19:1:57]: INFO: Parsed 2000000 lines in current ACC file
+[19:1:57]: INFO: Parsed 3000000 lines in current ACC file
+[19:1:57]: INFO: Parsed 4000000 lines in current ACC file
+[19:1:58]: INFO: Parsed 5000000 lines in current ACC file
+[19:1:58]: INFO: Parsed 6000000 lines in current ACC file
+[19:1:58]: INFO: Parsed 7000000 lines in current ACC file
+[19:1:58]: INFO: Parsed 8000000 lines in current ACC file
+[19:1:59]: INFO: Parsed 9000000 lines in current ACC file
+[19:1:59]: INFO: Parsed 10000000 lines in current ACC file
+[19:1:59]: INFO: Parsed 11000000 lines in current ACC file
+[19:1:59]: INFO: Parsed 12000000 lines in current ACC file
+[19:1:59]: INFO: Parsed 13000000 lines in current ACC file
+[19:2:0]: INFO: Parsed 14000000 lines in current ACC file
+[19:2:0]: INFO: Parsed 15000000 lines in current ACC file
+[19:2:0]: INFO: Parsed 15118080 lines from resources/014/ACC_014.csv
+[19:2:0]: INFO: Beginning normalizing ACC values... 
+[19:2:0]: INFO: Beginning normalizing ACC values... 
+[19:2:0]: INFO: Beginning normalizing ACC values... 
+[19:2:0]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[19:2:0]: INFO: Beginning parsing file resources/014/HR_014.csv
+[19:2:0]: INFO: Parsed 100000 in the current HR file
+[19:2:0]: INFO: Parsed 200000 in the current HR file
+[19:2:0]: INFO: Parsed 300000 in the current HR file
+[19:2:0]: INFO: Parsed 400000 in the current HR file
+[19:2:0]: INFO: Initial correlation (axis 0) is -0.172943
+[19:2:0]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:2:0]: INFO: Found correlation: -0.172943 in 1. iteration
+[19:2:2]: INFO: Finished [10/100] iterations
+[19:2:4]: INFO: Finished [20/100] iterations
+[19:2:6]: INFO: Finished [30/100] iterations
+[19:2:8]: INFO: Finished [40/100] iterations
+[19:2:10]: INFO: Finished [50/100] iterations
+[19:2:11]: INFO: Finished [60/100] iterations
+[19:2:13]: INFO: Finished [70/100] iterations
+[19:2:15]: INFO: Finished [80/100] iterations
+[19:2:17]: INFO: Finished [90/100] iterations
+[19:2:19]: INFO: Best found correlation: -0.172943
+[19:2:19]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.208911) + (x - 0.079269) + (x / 0.449963) + (x - 0.236582) + (x - 0.411704) + (x * 0.025284) + (0.273884 * 0.227240) + (0.415342 + 0.475661) + (x + 0.354882) + (0.390725 * 0.199780)
+[19:2:19]: INFO: Exporting results into out/patient_14_axis_X_Apple M1 Pro.svg
+[19:2:19]: INFO: Results exported
+[19:2:19]: INFO: Initial correlation (axis 1) is 0.243723
+[19:2:19]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:2:19]: INFO: Found correlation: 0.243726 in 1. iteration
+[19:2:19]: INFO: Found correlation: 0.243726 in 1. iteration
+[19:2:21]: INFO: Finished [10/100] iterations
+[19:2:23]: INFO: Finished [20/100] iterations
+[19:2:25]: INFO: Finished [30/100] iterations
+[19:2:26]: INFO: Finished [40/100] iterations
+[19:2:28]: INFO: Finished [50/100] iterations
+[19:2:30]: INFO: Finished [60/100] iterations
+[19:2:32]: INFO: Finished [70/100] iterations
+[19:2:34]: INFO: Finished [80/100] iterations
+[19:2:36]: INFO: Finished [90/100] iterations
+[19:2:37]: INFO: Best found correlation: 0.243726
+[19:2:37]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.265506) + (0.234351 * 0.326565) + (x - 0.158460) + (x * 0.142963) + (0.410603 - 0.304716) + (x + 0.469878) + (0.014994 / 0.428921) + (x - 0.416148) + (0.240735 - 0.162760) + (x - 0.128243)
+[19:2:37]: INFO: Exporting results into out/patient_14_axis_Y_Apple M1 Pro.svg
+[19:2:37]: INFO: Results exported
+[19:2:37]: INFO: Initial correlation (axis 2) is -0.174381
+[19:2:37]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:2:37]: INFO: Found correlation: -0.174379 in 1. iteration
+[19:2:37]: INFO: Found correlation: -0.174379 in 1. iteration
+[19:2:40]: INFO: Finished [10/100] iterations
+[19:2:41]: INFO: Finished [20/100] iterations
+[19:2:43]: INFO: Finished [30/100] iterations
+[19:2:45]: INFO: Finished [40/100] iterations
+[19:2:47]: INFO: Finished [50/100] iterations
+[19:2:49]: INFO: Finished [60/100] iterations
+[19:2:51]: INFO: Finished [70/100] iterations
+[19:2:53]: INFO: Finished [80/100] iterations
+[19:2:54]: INFO: Finished [90/100] iterations
+[19:2:56]: INFO: Best found correlation: -0.174379
+[19:2:56]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.207610) + (x - 0.365996) + (x / 0.340178) + (0.422347 - 0.276377) + (x + 0.239677) + (x * 0.426151) + (0.167231 / 0.405703) + (0.065342 + 0.297506) + (x + 0.277718) + (x - 0.222292)
+[19:2:56]: INFO: Exporting results into out/patient_14_axis_Z_Apple M1 Pro.svg
+[19:2:56]: INFO: Results exported
+[19:2:56]: INFO: Timestamp difference calculated: -10
+[19:2:56]: INFO: Beginning parsing file resources/015/ACC_015.csv
+[19:2:56]: INFO: Parsed 1000000 lines in current ACC file
+[19:2:57]: INFO: Parsed 2000000 lines in current ACC file
+[19:2:57]: INFO: Parsed 3000000 lines in current ACC file
+[19:2:57]: INFO: Parsed 4000000 lines in current ACC file
+[19:2:57]: INFO: Parsed 5000000 lines in current ACC file
+[19:2:58]: INFO: Parsed 6000000 lines in current ACC file
+[19:2:58]: INFO: Parsed 7000000 lines in current ACC file
+[19:2:58]: INFO: Parsed 8000000 lines in current ACC file
+[19:2:58]: INFO: Parsed 9000000 lines in current ACC file
+[19:2:59]: INFO: Parsed 10000000 lines in current ACC file
+[19:2:59]: INFO: Parsed 11000000 lines in current ACC file
+[19:2:59]: INFO: Parsed 12000000 lines in current ACC file
+[19:2:59]: INFO: Parsed 13000000 lines in current ACC file
+[19:2:59]: INFO: Parsed 13969806 lines from resources/015/ACC_015.csv
+[19:2:59]: INFO: Beginning normalizing ACC values... 
+[19:2:59]: INFO: Beginning normalizing ACC values... 
+[19:2:59]: INFO: Beginning normalizing ACC values... 
+[19:3:0]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[19:3:0]: INFO: Beginning parsing file resources/015/HR_015.csv
+[19:3:0]: INFO: Parsed 100000 in the current HR file
+[19:3:0]: INFO: Parsed 200000 in the current HR file
+[19:3:0]: INFO: Parsed 300000 in the current HR file
+[19:3:0]: INFO: Parsed 400000 in the current HR file
+[19:3:0]: INFO: Initial correlation (axis 0) is 0.084257
+[19:3:0]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:3:0]: INFO: Found correlation: 0.084256 in 1. iteration
+[19:3:0]: INFO: Found correlation: 0.084256 in 1. iteration
+[19:3:2]: INFO: Finished [10/100] iterations
+[19:3:4]: INFO: Finished [20/100] iterations
+[19:3:5]: INFO: Finished [30/100] iterations
+[19:3:7]: INFO: Finished [40/100] iterations
+[19:3:9]: INFO: Finished [50/100] iterations
+[19:3:11]: INFO: Finished [60/100] iterations
+[19:3:13]: INFO: Finished [70/100] iterations
+[19:3:15]: INFO: Finished [80/100] iterations
+[19:3:17]: INFO: Finished [90/100] iterations
+[19:3:18]: INFO: Best found correlation: 0.084256
+[19:3:18]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.122662) + (x / 0.469736) + (x - 0.250629) + (x / 0.289470) + (0.385769 * 0.061867) + (0.225611 / 0.233997) + (0.019285 + 0.050405) + (0.238081 - 0.200417) + (0.335849 * 0.095022) + (0.456319 - 0.234769)
+[19:3:18]: INFO: Exporting results into out/patient_15_axis_X_Apple M1 Pro.svg
+[19:3:18]: INFO: Results exported
+[19:3:18]: INFO: Initial correlation (axis 1) is -0.054542
+[19:3:18]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:3:18]: INFO: Found correlation: -0.054542 in 1. iteration
+[19:3:18]: INFO: Found correlation: -0.054542 in 1. iteration
+[19:3:18]: INFO: Found correlation: -0.054542 in 1. iteration
+[19:3:20]: INFO: Finished [10/100] iterations
+[19:3:22]: INFO: Finished [20/100] iterations
+[19:3:24]: INFO: Finished [30/100] iterations
+[19:3:26]: INFO: Finished [40/100] iterations
+[19:3:28]: INFO: Finished [50/100] iterations
+[19:3:30]: INFO: Finished [60/100] iterations
+[19:3:32]: INFO: Finished [70/100] iterations
+[19:3:34]: INFO: Finished [80/100] iterations
+[19:3:35]: INFO: Finished [90/100] iterations
+[19:3:37]: INFO: Best found correlation: -0.054542
+[19:3:37]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.121914) + (x * 0.266214) + (0.446244 / 0.354279) + (0.125547 + 0.066511) + (x / 0.346340) + (0.093765 - 0.127041) + (0.145782 * 0.376191) + (0.411498 / 0.111297) + (0.058744 / 0.427843) + (0.271301 * 0.265326)
+[19:3:37]: INFO: Exporting results into out/patient_15_axis_Y_Apple M1 Pro.svg
+[19:3:37]: INFO: Results exported
+[19:3:37]: INFO: Initial correlation (axis 2) is -0.399695
+[19:3:37]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:3:37]: INFO: Found correlation: -0.399695 in 1. iteration
+[19:3:37]: INFO: Found correlation: -0.399695 in 1. iteration
+[19:3:39]: INFO: Finished [10/100] iterations
+[19:3:41]: INFO: Finished [20/100] iterations
+[19:3:43]: INFO: Finished [30/100] iterations
+[19:3:45]: INFO: Finished [40/100] iterations
+[19:3:47]: INFO: Finished [50/100] iterations
+[19:3:49]: INFO: Finished [60/100] iterations
+[19:3:51]: INFO: Finished [70/100] iterations
+[19:3:52]: INFO: Finished [80/100] iterations
+[19:3:54]: INFO: Finished [90/100] iterations
+[19:3:56]: INFO: Best found correlation: -0.399695
+[19:3:56]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.042908) + (0.225766 * 0.301372) + (x * 0.093878) + (0.382164 - 0.174496) + (0.252080 * 0.351885) + (0.374318 / 0.336950) + (x / 0.424445) + (x / 0.313702) + (x / 0.211641) + (x * 0.083644)
+[19:3:56]: INFO: Exporting results into out/patient_15_axis_Z_Apple M1 Pro.svg
+[19:3:56]: INFO: Results exported
+[19:3:56]: INFO: Timestamp difference calculated: -10
+[19:3:56]: INFO: Beginning parsing file resources/016/ACC_016.csv
+[19:3:56]: INFO: Parsed 1000000 lines in current ACC file
+[19:3:56]: INFO: Parsed 2000000 lines in current ACC file
+[19:3:57]: INFO: Parsed 3000000 lines in current ACC file
+[19:3:57]: INFO: Parsed 4000000 lines in current ACC file
+[19:3:57]: INFO: Parsed 5000000 lines in current ACC file
+[19:3:57]: INFO: Parsed 6000000 lines in current ACC file
+[19:3:58]: INFO: Parsed 7000000 lines in current ACC file
+[19:3:58]: INFO: Parsed 8000000 lines in current ACC file
+[19:3:58]: INFO: Parsed 9000000 lines in current ACC file
+[19:3:58]: INFO: Parsed 10000000 lines in current ACC file
+[19:3:59]: INFO: Parsed 11000000 lines in current ACC file
+[19:3:59]: INFO: Parsed 12000000 lines in current ACC file
+[19:3:59]: INFO: Parsed 13000000 lines in current ACC file
+[19:3:59]: INFO: Parsed 14000000 lines in current ACC file
+[19:3:59]: INFO: Parsed 15000000 lines in current ACC file
+[19:4:0]: INFO: Parsed 16000000 lines in current ACC file
+[19:4:0]: INFO: Parsed 17000000 lines in current ACC file
+[19:4:0]: INFO: Parsed 17860788 lines from resources/016/ACC_016.csv
+[19:4:0]: INFO: Beginning normalizing ACC values... 
+[19:4:0]: INFO: Beginning normalizing ACC values... 
+[19:4:0]: INFO: Beginning normalizing ACC values... 
+[19:4:0]: INFO: HR measurements are "ahead" by 10 lines. Skipping...
+[19:4:0]: INFO: Beginning parsing file resources/016/HR_016.csv
+[19:4:0]: INFO: Parsed 100000 in the current HR file
+[19:4:0]: INFO: Parsed 200000 in the current HR file
+[19:4:0]: INFO: Parsed 300000 in the current HR file
+[19:4:0]: INFO: Parsed 400000 in the current HR file
+[19:4:0]: INFO: Parsed 500000 in the current HR file
+[19:4:0]: INFO: Initial correlation (axis 0) is 0.187688
+[19:4:0]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:4:0]: INFO: Found correlation: 0.187685 in 1. iteration
+[19:4:3]: INFO: Finished [10/100] iterations
+[19:4:6]: INFO: Finished [20/100] iterations
+[19:4:8]: INFO: Finished [30/100] iterations
+[19:4:10]: INFO: Finished [40/100] iterations
+[19:4:13]: INFO: Finished [50/100] iterations
+[19:4:15]: INFO: Finished [60/100] iterations
+[19:4:18]: INFO: Finished [70/100] iterations
+[19:4:20]: INFO: Finished [80/100] iterations
+[19:4:23]: INFO: Finished [90/100] iterations
+[19:4:25]: INFO: Best found correlation: 0.187685
+[19:4:25]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.082951) + (0.437560 - 0.198270) + (x / 0.111390) + (x / 0.451608) + (0.453316 - 0.477376) + (0.335879 + 0.107917) + (0.081350 - 0.133120) + (x - 0.119805) + (0.027625 - 0.283549) + (0.474705 + 0.132626)
+[19:4:25]: INFO: Exporting results into out/patient_16_axis_X_Apple M1 Pro.svg
+[19:4:25]: INFO: Results exported
+[19:4:25]: INFO: Initial correlation (axis 1) is -0.262219
+[19:4:25]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:4:25]: INFO: Found correlation: -0.262214 in 1. iteration
+[19:4:25]: INFO: Found correlation: -0.262214 in 1. iteration
+[19:4:28]: INFO: Finished [10/100] iterations
+[19:4:30]: INFO: Finished [20/100] iterations
+[19:4:33]: INFO: Finished [30/100] iterations
+[19:4:35]: INFO: Finished [40/100] iterations
+[19:4:38]: INFO: Finished [50/100] iterations
+[19:4:40]: INFO: Finished [60/100] iterations
+[19:4:42]: INFO: Finished [70/100] iterations
+[19:4:45]: INFO: Finished [80/100] iterations
+[19:4:47]: INFO: Finished [90/100] iterations
+[19:4:50]: INFO: Best found correlation: -0.262214
+[19:4:50]: INFO: Tree corresponding to the calculated correlation:  + (x - 0.345992) + (x - 0.059660) + (0.163025 / 0.123369) + (0.030809 - 0.101360) + (0.136305 - 0.125730) + (0.096507 * 0.473631) + (0.040559 - 0.399969) + (0.411290 - 0.446703) + (0.424242 / 0.068884) + (x * 0.374213)
+[19:4:50]: INFO: Exporting results into out/patient_16_axis_Y_Apple M1 Pro.svg
+[19:4:50]: INFO: Results exported
+[19:4:50]: INFO: Initial correlation (axis 2) is -0.118415
+[19:4:50]: INFO: Starting correlation formula generation on device: Apple M1 Pro
+[19:4:50]: INFO: Found correlation: -0.118414 in 1. iteration
+[19:4:50]: INFO: Found correlation: -0.118414 in 1. iteration
+[19:4:50]: INFO: Found correlation: -0.118414 in 1. iteration
+[19:4:52]: INFO: Finished [10/100] iterations
+[19:4:55]: INFO: Finished [20/100] iterations
+[19:4:57]: INFO: Finished [30/100] iterations
+[19:5:0]: INFO: Finished [40/100] iterations
+[19:5:2]: INFO: Finished [50/100] iterations
+[19:5:5]: INFO: Finished [60/100] iterations
+[19:5:7]: INFO: Finished [70/100] iterations
+[19:5:10]: INFO: Finished [80/100] iterations
+[19:5:12]: INFO: Finished [90/100] iterations
+[19:5:14]: INFO: Best found correlation: -0.118414
+[19:5:14]: INFO: Tree corresponding to the calculated correlation:  + (x + 0.324189) + (0.020974 / 0.365216) + (0.341986 / 0.053366) + (0.433488 - 0.418329) + (x * 0.485375) + (x - 0.013158) + (0.327672 + 0.300624) + (0.470453 + 0.150454) + (x + 0.099162) + (0.294049 - 0.264418)
+[19:5:14]: INFO: Exporting results into out/patient_16_axis_Z_Apple M1 Pro.svg
+[19:5:15]: INFO: Results exported

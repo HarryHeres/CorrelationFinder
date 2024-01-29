@@ -1,0 +1,13 @@
+%s/^2/02 => Convert M to MM
+
+%s/\v(..)\/(..)\/(..)\//\3\/\2\/\1 => Swap M/DD/YY to YY/MM/DD
+
+%s/20\//2020\/ => Convert YY to YYYY
+
+%s/\//- => Replace all "/" for "-"
+
+%s/\v(:..)/\1:00 => append "00" as seconds 
+
+%s/:00/\=submatch(0) + (line('.') - 2) % 60 => Replace all ":00" with ":XX", where XX is calculate by (line - 2) % 60
+
+%s/:\v(.,)/:0\1 => Append all single number second patterns with "0"
